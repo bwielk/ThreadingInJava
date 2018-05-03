@@ -9,6 +9,7 @@ public class ThreadsMain {
     public static void main(String[] args) {
         System.out.println(ANSI_GREEN + "First thread");
         Thread anotherThread = new AnotherThread();
+        anotherThread.setName(">>>> ANOTHER THREAD INSTANCE <<<<");
         anotherThread.start();
 
         new Thread(){
@@ -18,5 +19,8 @@ public class ThreadsMain {
         }.start();
 
         System.out.println(ANSI_GREEN + "Another notification from the main thread");
+
+        Runnable runnable = new ThreadRunnable();
+        runnable.run();
     }
 }

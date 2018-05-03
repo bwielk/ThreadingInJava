@@ -1,7 +1,10 @@
 package threads;
 
+import javax.sound.midi.Soundbank;
+
 import static threads.ThreadColor.ANSI_GREEN;
 import static threads.ThreadColor.ANSI_PURPLE;
+import static threads.ThreadColor.ANSI_RED;
 
 
 public class ThreadsMain {
@@ -15,6 +18,13 @@ public class ThreadsMain {
         new Thread(){
             public void run(){
                 System.out.println(ANSI_PURPLE + "The anonymous class output");
+                try{
+                    anotherThread.join(3000);
+                    System.out.println(ANSI_RED + "AnotherThread terminated. I am running.");
+                }catch(InterruptedException e){
+                    System.out.println(ANSI_RED + "I was interrupted for some reason. Couldn't wait");
+                    e.printStackTrace();
+                }
             }
         }.start();
 
@@ -22,5 +32,6 @@ public class ThreadsMain {
 
         Runnable runnable = new ThreadRunnable();
         runnable.run();
+        //anotherThread.interrupt();
     }
 }

@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="448c08ab-51c0-4e3c-b44b-c0567f6f37d1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Threads/threads/AnotherThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Threads/threads/AnotherThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Threads/threads/ThreadsMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threads/AnotherThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threads/AnotherThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threads/ThreadsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threads/ThreadsMain.java" afterDir="false" />
-    </list>
+    <list default="true" id="448c08ab-51c0-4e3c-b44b-c0567f6f37d1" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,13 +48,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnotherThread.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AnotherThread.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/threads/AnotherThread.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
               <caret line="17" column="68" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MultipleThreads.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/threads/MultipleThreads.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#845#846#0" expanded="true" />
+                <element signature="e#882#883#0" expanded="true" />
+                <element signature="e#910#911#0" expanded="true" />
+                <element signature="e#955#956#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,6 +94,7 @@
         <option value="$PROJECT_DIR$/src/threads/ThreadRunnable.java" />
         <option value="$PROJECT_DIR$/src/threads/ThreadsMain.java" />
         <option value="$PROJECT_DIR$/src/threads/AnotherThread.java" />
+        <option value="$PROJECT_DIR$/src/threads/MultipleThreads.java" />
       </list>
     </option>
   </component>
@@ -138,7 +148,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MultipleThreads">
+    <configuration name="MultipleThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threads.MultipleThreads" />
+      <module name="Threads" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="ThreadsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="threads.ThreadsMain" />
       <module name="Threads" />
@@ -191,8 +212,13 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.ThreadsMain" />
+      <item itemvalue="Application.MultipleThreads" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultipleThreads" />
         <item itemvalue="Application.ThreadsMain" />
       </list>
     </recent_temporary>
@@ -282,6 +308,19 @@
           <caret line="17" column="68" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/threads/MultipleThreads.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
+            <element signature="e#955#956#0" expanded="true" />
           </folding>
         </state>
       </provider>

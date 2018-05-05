@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="448c08ab-51c0-4e3c-b44b-c0567f6f37d1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/threads/MultipleThreads.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threads/MultipleThreads.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,7 +62,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MultipleThreads.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MultipleThreads.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/threads/MultipleThreads.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -72,6 +72,21 @@
                 <element signature="e#882#883#0" expanded="true" />
                 <element signature="e#910#911#0" expanded="true" />
                 <element signature="e#955#956#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadMessages.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/threads/ThreadMessages.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="36" selection-end-column="9" />
+              <folding>
+                <element signature="e#550#551#0" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
+                <element signature="e#1325#1326#0" expanded="true" />
+                <element signature="e#1358#1359#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,6 +112,7 @@
         <option value="$PROJECT_DIR$/src/threads/ThreadsMain.java" />
         <option value="$PROJECT_DIR$/src/threads/AnotherThread.java" />
         <option value="$PROJECT_DIR$/src/threads/MultipleThreads.java" />
+        <option value="$PROJECT_DIR$/src/threads/ThreadMessages.java" />
       </list>
     </option>
   </component>
@@ -150,9 +166,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MultipleThreads">
+  <component name="RunManager" selected="Application.ThreadMessages">
     <configuration name="MultipleThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="threads.MultipleThreads" />
+      <module name="Threads" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ThreadMessages" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threads.ThreadMessages" />
       <module name="Threads" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -217,9 +244,11 @@
     <list>
       <item itemvalue="Application.ThreadsMain" />
       <item itemvalue="Application.MultipleThreads" />
+      <item itemvalue="Application.ThreadMessages" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadMessages" />
         <item itemvalue="Application.MultipleThreads" />
         <item itemvalue="Application.ThreadsMain" />
       </list>
@@ -323,6 +352,19 @@
             <element signature="e#882#883#0" expanded="true" />
             <element signature="e#910#911#0" expanded="true" />
             <element signature="e#955#956#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/threads/ThreadMessages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="36" selection-end-column="9" />
+          <folding>
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#1325#1326#0" expanded="true" />
+            <element signature="e#1358#1359#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -3,7 +3,7 @@ package threads;
 public class MultipleThreads {
 
     public static void main(String[] args) {
-        CountDown cd = new CountDown();
+        CountDown cd = new CountDown();;
 
         CountDownThread thread1 = new CountDownThread(cd);
         thread1.setName("Thread 1");
@@ -16,6 +16,8 @@ public class MultipleThreads {
 }
 
 class CountDown{
+
+    //private int i;   <= will cause thread interference
     public void doCountdown(){
         String color;
         switch(Thread.currentThread().getName()){
@@ -29,9 +31,13 @@ class CountDown{
                 color = ThreadColor.ANSI_RED;
                 break;
         }
-        for(int i=10; i>0; i--){
-            System.out.println(color + Thread.currentThread().getName() + " i=" + i);
-        }
+
+        synchronized(this){
+            for(int i=10; i>0; i--){
+                System.out.println(color + Thread.currentThread().getName() + " i=" + i);
+            }
+        };
+        //for(i=10; i>0; i--){   <= will cause thread interference
     }
 }
 

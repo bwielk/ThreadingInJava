@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="448c08ab-51c0-4e3c-b44b-c0567f6f37d1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/threads/Concurrents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threads/Concurrents.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -95,8 +95,8 @@
       <file leaf-file-name="Concurrents.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/threads/Concurrents.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+            <state relative-caret-position="248">
+              <caret line="74" column="38" lean-forward="true" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#227#235#0" expanded="true" />
@@ -180,7 +180,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadMessages">
+  <component name="RunManager" selected="Application.Concurrents">
+    <configuration name="Concurrents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threads.Concurrents" />
+      <module name="Threads" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="MultipleThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="threads.MultipleThreads" />
       <module name="Threads" />
@@ -259,9 +270,11 @@
       <item itemvalue="Application.ThreadsMain" />
       <item itemvalue="Application.MultipleThreads" />
       <item itemvalue="Application.ThreadMessages" />
+      <item itemvalue="Application.Concurrents" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Concurrents" />
         <item itemvalue="Application.ThreadMessages" />
         <item itemvalue="Application.MultipleThreads" />
         <item itemvalue="Application.ThreadsMain" />
@@ -385,8 +398,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/threads/Concurrents.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        <state relative-caret-position="248">
+          <caret line="74" column="38" lean-forward="true" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#227#235#0" expanded="true" />

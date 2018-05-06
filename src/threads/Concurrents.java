@@ -38,13 +38,17 @@ class MyProducer implements Runnable{
         for(String num : nums){
             try{
                 System.out.println(colour + "Adding " + num);
-                buffer.add(num);
+                synchronized(buffer){
+                    buffer.add(num);
+                }
                 Thread.sleep(random.nextInt(1000));
             }catch(InterruptedException e){
                 System.out.println("Producer interrupted");
             }
         }
-        buffer.add("EOF");
+        synchronized(buffer){
+            buffer.add("EOF");
+        }
     }
 }
 
@@ -60,14 +64,16 @@ class MyConsumer implements Runnable{
 
     public void run(){
         while(true){
-            if(buffer.isEmpty()){
-                continue;
-            }
-            if(buffer.get(0).equals(EOF)){
-                System.out.println(color + "Exiting");
-                break;
-            }else{
-                System.out.println(color + "Removed " + buffer.remove(0));
+            synchronized(buffer){
+                if(buffer.isEmpty()){
+                    continue;
+                }
+                if(buffer.get(0).equals(EOF)){
+                    System.out.println(color + "Exiting");
+                    break;
+                }else{
+                    System.out.println(color + "Removed " + buffer.remove(0));
+                }
             }
         }
     }

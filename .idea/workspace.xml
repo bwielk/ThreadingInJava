@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="448c08ab-51c0-4e3c-b44b-c0567f6f37d1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threads/Concurrents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threads/Concurrents.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,15 +78,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Concurrents.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Concurrents.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/threads/Concurrents.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="135" column="13" selection-start-line="135" selection-start-column="13" selection-end-line="135" selection-end-column="13" />
+            <state relative-caret-position="214">
+              <caret line="131" column="18" selection-start-line="131" selection-start-column="18" selection-end-line="131" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#399#407#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadsIssuesMain.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/threads/ThreadsIssuesMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="43" column="59" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -114,6 +122,7 @@
         <option value="$PROJECT_DIR$/src/threads/MultipleThreads.java" />
         <option value="$PROJECT_DIR$/src/threads/ThreadMessages.java" />
         <option value="$PROJECT_DIR$/src/threads/Concurrents.java" />
+        <option value="$PROJECT_DIR$/src/threads/ThreadsIssuesMain.java" />
       </list>
     </option>
   </component>
@@ -167,7 +176,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Concurrents">
+  <component name="RunManager" selected="Application.ThreadsIssuesMain">
     <configuration name="Concurrents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="threads.Concurrents" />
       <module name="Threads" />
@@ -192,6 +201,17 @@
     </configuration>
     <configuration name="ThreadMessages" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="threads.ThreadMessages" />
+      <module name="Threads" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ThreadsIssuesMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threads.ThreadsIssuesMain" />
       <module name="Threads" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -258,9 +278,11 @@
       <item itemvalue="Application.MultipleThreads" />
       <item itemvalue="Application.ThreadMessages" />
       <item itemvalue="Application.Concurrents" />
+      <item itemvalue="Application.ThreadsIssuesMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadsIssuesMain" />
         <item itemvalue="Application.Concurrents" />
         <item itemvalue="Application.ThreadMessages" />
         <item itemvalue="Application.MultipleThreads" />
@@ -434,12 +456,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/threads/Concurrents.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="135" column="13" selection-start-line="135" selection-start-column="13" selection-end-line="135" selection-end-column="13" />
+        <state relative-caret-position="214">
+          <caret line="131" column="18" selection-start-line="131" selection-start-column="18" selection-end-line="131" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#399#407#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/threads/ThreadsIssuesMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="43" column="59" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
         </state>
       </provider>
     </entry>

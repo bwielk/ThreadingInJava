@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="448c08ab-51c0-4e3c-b44b-c0567f6f37d1" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/threads/Concurrents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threads/Concurrents.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -81,11 +82,11 @@
       <file leaf-file-name="Concurrents.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/threads/Concurrents.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="47" column="73" selection-start-line="47" selection-start-column="73" selection-end-line="47" selection-end-column="73" />
+            <state relative-caret-position="282">
+              <caret line="135" column="13" selection-start-line="135" selection-start-column="13" selection-end-line="135" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#390#398#0" expanded="true" />
+                <element signature="e#399#407#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -302,7 +303,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990307" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -374,7 +375,7 @@
           <caret line="97" column="34" selection-start-line="97" selection-start-column="34" selection-end-line="97" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#390#398#0" expanded="true" />
+            <element signature="e#399#407#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -433,11 +434,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/threads/Concurrents.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="47" column="73" selection-start-line="47" selection-start-column="73" selection-end-line="47" selection-end-column="73" />
+        <state relative-caret-position="282">
+          <caret line="135" column="13" selection-start-line="135" selection-start-column="13" selection-end-line="135" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#390#398#0" expanded="true" />
+            <element signature="e#399#407#0" expanded="true" />
           </folding>
         </state>
       </provider>
